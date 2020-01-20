@@ -1,0 +1,147 @@
+body {
+    font-family: arial, sans-serif;
+    color: #222;
+}
+
+
+header {
+    display: flex;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 30px;
+    color: black;
+}
+
+footer {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    justify-content: space-between;
+    color: gray;
+    background-color:lightgrey;
+    padding: 12px;
+}
+
+a {
+    padding: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.link-header {
+    font-size: 15px;
+    color: black;
+}
+
+.link-footer {
+    font-size: 15px;
+    color: rgb(66, 66, 66);
+}
+
+#sign-in {
+    padding: 7px 12px;
+    margin-left: 15px;
+    border-radius: 3px;
+    background-color: #4285f4;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#right-header {
+    margin-right: 35px;
+
+}
+
+#left-header {
+    margin-left: 10px;
+}
+
+#left-footer {
+    margin-left: 6px;
+}
+
+#right-footer {
+    margin-right: 29px;
+}
+
+#google-search-bar {
+    display: block;
+    text-align: center;
+    margin-top: 205px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#search-bar-border {
+    width: 60%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 25px;
+    border: solid 1px lightgrey;
+    margin-top: 22px;
+    background-color: transparent;
+
+}
+
+#search-input {
+    width: 100%;
+    margin: 0px 30px;
+    border: none;
+}
+
+#search-input:focus {
+    outline: none;
+}
+
+}
+
+#search-input:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+}
+
+.search-button {
+    background-color: #f2f2f2;;
+    padding: 8px 10px;
+    margin-top: 10px;
+    font-size: 13px;
+    border-radius: 4px;
+    border: none;
+}
+
+.search-button:hover {
+    border: solid 1px #c6c6c6;
+}
+
+#button-left {
+    margin-right: 3px;
+}
+
+#button-right {
+    margin-left: 3px;
+}
+
+#glass {
+    height: 25px;
+    width: 25px;
+}
+
+svg {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
